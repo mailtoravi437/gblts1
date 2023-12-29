@@ -69,7 +69,7 @@ const Hero5 = () => {
 
   return (
     <>
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white dark:bg-gray-900 px-4">
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             {categories.map((category, index) => (

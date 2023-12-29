@@ -3,7 +3,7 @@ import Truck from "./assets/Truck.svg";
 const Hero4 = () => {
   return (
     <>
-      <section className="bg-white dark:bg-gray-900 px-2 flex justify-center">
+      <section className="bg-white dark:bg-gray-900 px-2 flex justify-center px-4">
         <div className="grid max-w-screen-xl  mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mx-4">
           <div className="mr-auto place-self-center lg:col-span-6 pr-4">
             {/* Add pr-4 class for slight padding from the right */}

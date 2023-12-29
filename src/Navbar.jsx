@@ -19,7 +19,7 @@ export default function Navbar() {
     <Disclosure as="nav" className="font-navfont">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-screen-xl px-4 ">
+          <div className="mx-auto max-w-screen-xl px-6">
             <div className="relative grid grid-cols-12 h-16 items-center justify-between">
               {/* Logo Section */}
               <div className="col-span-6 flex-shrink-0 items-center pt-10">

@@ -3,7 +3,7 @@ import Founder from "./assets/Founder.svg";
 const Hero3 = () => {
   return (
     <>
-      <section className="bg-white dark:bg-gray-900 pt-8 flex justify-center">
+      <section className="bg-white dark:bg-gray-900 pt-8 flex justify-center px-4">
         <div className="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 mx-4">
           <div className="place-self-center lg:col-span-1">
             <div className="mx-0 p-0">
