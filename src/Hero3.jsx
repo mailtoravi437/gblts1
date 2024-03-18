@@ -1,10 +1,10 @@
-import Founder from "./assets/Founder.svg";
+import Founder from "./assets/Anil.png";
 
 const Hero3 = () => {
   return (
     <>
-      <section className="bg-white dark:bg-gray-900 pt-8 flex justify-center px-4">
-        <div className="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2 mx-4">
+      <section className="bg-[#F7F7F8] pt-8 flex justify-center py-8">
+        <div className="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
           <div className="place-self-center lg:col-span-1">
             <div className="mx-0 p-0">
               <img
@@ -14,27 +14,16 @@ const Hero3 = () => {
               />
             </div>
           </div>
-          <div className="flex flex-col mx-auto lg:mt-0 lg:col-span-1 lg:flex text-gbltsblue p-4">
+          <div className="flex flex-col mx-auto lg:mt-0 lg:col-span-1 lg:flex text-gbltsblue px-24">
             <div className="font-bold text-2xl sm:text-3xl lg:text-4xl uppercase">
               About founder
             </div>
-            <div className="font-normal text-base sm:text-lg lg:text-lg text-gbltsblue mt-4 sm:mt-8">
-              He joined the Family business early on in the 1980’s and continued
-              to shoulder the responsibility of operations in the Organization.
-              He made a name for the organization and for himself by setting
-              excellent standards for his work. He has seen it all and
-              experienced the change in the industry and the landscape. With his
-              excellent work and relationship-building skills, he has won many
-              hearts.
-            </div>
-            <div className="font-normal text-base sm:text-lg lg:text-lg text-gbltsblue mt-4 sm:mt-8">
-              In the late 2000s, he founded GB Lifting & Transportation System
-              to achieve his own dreams and start his entrepreneurial journey.
-              Naturally, it was a difficult job to wear so many hats. He has
-              been successful in his endeavors and is happy about what he has
-              achieved so far. He still has many dreams to fulfill and plans to
-              take the company to new heights.
-            </div>
+            <p className="font-normal text-base sm:text-lg lg:text-lg text-gbltsblue mt-4 sm:mt-8">
+              In 1946, the family business KB Transport was founded in Howrah, later renamed Howrah Readiness in 1980, diversifying into specialised services like factory setups and explosive transport. Late Anil Kumar Singh joined in the early 1980s, significantly enhancing the company's operations and reputation. His outstanding work and relationship-building skills not only elevated the organization but also established his own legacy in the industry.
+            </p>
+            <p className="font-normal text-base sm:text-lg lg:text-lg text-gbltsblue mt-4 sm:mt-8">
+              In the late 2000 he founded GB Lifting & Transportation System to achieve his own dreams and start his Entrepreneurial Journey. Naturally it was a difficult job to wear so many hats. He had been successful in his endeavours and found happiness in reflecting on what he had achieved during his lifetime. Although he is no longer with us, his legacy lives on. Despite the dreams he had yet to fulfill, he had laid a foundation for others to continue and had plans to guide the company to new heights.
+            </p>
           </div>
         </div>
       </section>

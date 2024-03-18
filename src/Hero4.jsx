@@ -3,8 +3,8 @@ import Truck from "./assets/Truck.svg";
 const Hero4 = () => {
   return (
     <>
-      <section className="bg-white dark:bg-gray-900 px-2 flex justify-center px-4">
-        <div className="grid max-w-screen-xl  mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mx-4">
+      <section className="bg-white flex justify-center py-8">
+        <div className="grid max-w-screen-xl  mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-6 pr-4">
             {/* Add pr-4 class for slight padding from the right */}
             <div className="max-w-2xl mb-4 text-4xl font-extrabold uppercase tracking-tight leading-none md:text-5xl xl:text-6xl text-gbltsblue">

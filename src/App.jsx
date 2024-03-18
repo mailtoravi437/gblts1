@@ -12,20 +12,25 @@ import Hero6 from "./Hero6";
 import Hero7 from "./Hero7";
 import ContactForm from "./ContactForm";
 import Footer from "./Footer";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import SectionImg from "./SectionImg";
 
 function App() {
   return (
     <>
+    <Router>
       <Navbar />
       <Hero />
       <Logistic />
       <Hero3 />
       <Hero4 />
       <Hero5 />
+      <SectionImg/>
       <Hero6 />
       {/* <Hero7 /> */}
       <ContactForm />
       <Footer />
+      </Router>
     </>
   );
 }

@@ -12,75 +12,66 @@ import Badge from "./assets/Badge.svg";
 const Hero5 = () => {
   const categories = [
     {
-      title: "Marketing",
+      title: "Project Cargo Transportation",
       icon: ProjectCargo,
-      description:
-        "Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit your marketing goals every month with our marketing plan.",
+      description: `Our skilled Project Logistics experts, from management to operations, have efficiently managed diverse industrial shipments in Energy, Oil & Gas, Mining, Metals, and more. We handle plant and machinery imports/exports across manufacturing sectors.`
     },
     {
-      title: "Legal",
+      title: "valuable Cargo Solutions",
       icon: ValuableCargo,
-      description:
-        "Protect your organization, devices and stay compliant with our structured workflows and custom permissions made for you.",
+      description:`We are engaged in transportation and handling of highly sensitive security material from over 20 years and have gained an expertise in the said field like News Print and high security material.`
     },
     {
-      title: "Business Automation",
+      title: "Warehousing divisions",
       icon: Warehousing,
-      description:
-        "Auto-assign tasks, send Slack messages, and much more. Now power up with hundreds of new templates to help you get started.",
+      description: `The Warehousing divisions offers specialised tailor made solutions for storage of cargo as per their nature.`
     },
     {
-      title: "Finance",
+      title: "Consulting & Advisory",
       icon: Consulting,
-      description:
-        "Audit-proof software built for critical financial operations like month-end close and quarterly budgeting.",
+      description: `We have profound experience of the Industry and understanding of the landscape of India. This knowledge enables us to help you with solving your most difficult logistics problems`
     },
     {
-      title: "Enterprise Design",
+      title: "Port Representation",
       icon: Portpresentation,
-      description:
-        "Craft beautiful, delightful experiences for both marketing and product with real cross-company collaboration.",
+      description: `We can help you in Customs clearance and Port Representation.`
     },
     {
-      title: "Operations",
+      title: "Relocation and Household Shifting",
       icon: Relocation,
-      description:
-        "Keep your company’s lights on with customizable, iterative, and structured workflows built for all efficient teams and individual.",
+      description: `We provide complete door to door relocation and household shifting`
     },
     {
-      title: "Operations",
+      title: "Expensive and Luxurious cars",
       icon: Car,
-      description:
-        "Keep your company’s lights on with customizable, iterative, and structured workflows built for all efficient teams and individual.",
+      description: `We have the experience to move expensive and luxurious cars`
     },
     {
-      title: "Operations",
+      title: "Exhibition and Material Transport",
       icon: MaterialTransport,
-      description:
-        "Keep your company’s lights on with customizable, iterative, and structured workflows built for all efficient teams and individual.",
+      description: `Tailor made solution to transport exhibition and material handling`
     },
     {
-      title: "Operations",
+      title: "Leasing/ Renting of Containers",
       icon: Badge,
-      description:
-        "Keep your company’s lights on with customizable, iterative, and structured workflows built for all efficient teams and individual.",
+      description: `We offer 40 feet and 20 feet containers on Lease/Rent basis`
     },
   ];
 
   return (
     <>
-      <section className="bg-white dark:bg-gray-900 px-4">
+      <section className="bg-white py-8">
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             {categories.map((category, index) => (
-              <div key={index} className="border border-gbltsblue p-6">
+              <div key={index} className="border border-gbltsblue p-8 h-96">
                 <div className="flex justify-center items-center mb-4 w-12 h-12 rounded-full bg-primary-100 dark:bg-primary-900">
                   <img src={category.icon} alt={category.title} />
                 </div>
-                <h3 className="mb-2 text-lg font-bold dark:text-white">
+                <h3 className="mb-2 text-lg font-bold  text-gbltsblue">
                   {category.title}
                 </h3>
-                <p className="text-gray-500 dark:text-gray-400">
+                <p className="text-gbltsblue">
                   {category.description}
                 </p>
               </div>
