@@ -3,7 +3,7 @@ import Truck from "./assets/Truck.svg";
 const Hero4 = () => {
   return (
     <>
-      <section className="bg-white flex justify-center py-8">
+      <section className="bg-white flex justify-center py-8 md:py-0 px-8">
         <div className="grid max-w-screen-xl  mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-6 pr-4">
             {/* Add pr-4 class for slight padding from the right */}
@@ -11,7 +11,7 @@ const Hero4 = () => {
               Solutions that<br></br>{" "}
               <span className="text-gbltsorange">We offer</span>
             </div>
-            <div className="lg:w-1/3 md:w-1/3 sm:w-1/3 mt-6 bg-gbltsorange inline-flex items-center justify-center px-6 py-4 text-base font-medium text-center text-slate-100">
+            <div className="lg:w-1/3 md:w-1/3 sm:w-1/3 my-6 bg-gbltsorange inline-flex items-center justify-center px-6 py-4 text-base font-medium text-center text-slate-100">
               <div className="text-white font-bold">CONTACT US</div>
             </div>
           </div>

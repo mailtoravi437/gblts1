@@ -14,7 +14,7 @@ const Hero3 = () => {
               />
             </div>
           </div>
-          <div className="flex flex-col mx-auto lg:mt-0 lg:col-span-1 lg:flex text-gbltsblue px-24">
+          <div className="flex flex-col mx-auto lg:mt-0 lg:col-span-1 lg:flex text-gbltsblue px-8 md:px-24">
             <div className="font-bold text-2xl sm:text-3xl lg:text-4xl uppercase">
               About founder
             </div>

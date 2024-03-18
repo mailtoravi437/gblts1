@@ -23,7 +23,7 @@ const Hero = () => {
                 Streamlining Your Supply Chain
               </h1>
             </div>
-            <div className="flex flex-col lg:mt-0 lg:col-span-6 lg:flex text-gbltsblue px-24">
+            <div className="flex flex-col lg:mt-0 lg:col-span-6 lg:flex text-gbltsblue md:px-24">
               <p className="mb-4 lg:mb-0">
                 An organization with the founder having over 3 decades of
                 experience in the logistics space. Started with a humble
@@ -31,7 +31,7 @@ const Hero = () => {
                 industry and his clients with his values, integrity, hard work,
                 and commitment.
               </p>
-              <div className="lg:w-1/3 md:w-1/3 sm:w-1/3 mt-10 bg-gbltsorange inline-flex items-center justify-center px-6 py-4 text-base font-medium text-center text-slate-100">
+              <div className=" w-2/5 md:w-1/3 lg:w-1/3 mt-10 bg-gbltsorange inline-flex items-center justify-center px-6 py-4 text-base font-medium text-center text-slate-100">
                 <div className="text-white font-bold">CONTACT US</div>
               </div>
             </div>
@@ -48,7 +48,7 @@ const Hero = () => {
             pagination={{
               clickable: true,
             }}
-            className="mySwiper w-full h-[880px] md:h-[600px] mt-12">
+            className="mySwiper w-full h-[210px] md:h-[600px] mt-12">
             <SwiperSlide>
               <img src={Truck1} alt="" className="w-full object-cover" />
             </SwiperSlide>

@@ -16,7 +16,7 @@ const Hero6 = () => {
               />
             </div>
           </div>
-          <div className="flex flex-col mx-auto lg:mt-0 lg:col-span-1 lg:flex text-gbltsblue pl-16">
+          <div className="flex flex-col mx-auto lg:mt-0 lg:col-span-1 lg:flex text-gbltsblue px-8 md:pl-16">
             <p className=" text-lg font-semibold text-gray-400">BLOGS</p>
             <div className="max-w-2xl mt-3 mb-4 tracking-wide text-2xl font-extrabold uppercase leading-none md:text-4xl text-gbltsblue">
               Your<br></br> <span className="text-gbltsorange">Trusted </span>

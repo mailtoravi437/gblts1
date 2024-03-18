@@ -5,7 +5,7 @@ const ContactForm = () => {
   return (
     <>
       <section className="py-32">
-        <div className="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 container bg-gbltsblue p-16">
+        <div className="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 container bg-gbltsblue p-8 md:p-16">
           <div className="mr-auto lg:col-span-7 text-white font-medium lg:pr-32">
             <h1 className="max-w-2xl tracking-tight leading-none text-white mb-4 text-2xl md:text-4xl font-semibold uppercase">
               Get<br/> with us today.
@@ -18,7 +18,7 @@ const ContactForm = () => {
               GBLTS - your logistics, our commitment.
             </p>
           </div>
-          <div className="flex flex-col px-10 lg:mt-0 lg:col-span-5 lg:flex">
+          <div className="flex flex-col pt-8 md:pt-0 px-0 md:px-8 lg:mt-0 lg:col-span-5 lg:flex">
             <h1 className="max-w-2xl tracking-tight leading-none text-white mb-4 md:text-5xl xl:text-6xl sm:text-4xl font-extrabold uppercase">
               Contact
             </h1>{" "}
