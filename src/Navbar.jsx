@@ -2,12 +2,13 @@ import { Fragment } from "react";
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Logo from "./assets/GBLTSLogo.svg";
+import { HashLink } from "react-router-hash-link";
 
 const navigation = [
-  { name: "About", href: "#", current: true },
-  { name: "Solutions", href: "#", current: false },
+  { name: "About", href: "#aboutus", current: true },
+  { name: "Solutions", href: "#solutions", current: false },
   { name: "Blog", href: "#", current: false },
-  { name: "Contact Us", href: "#", current: false },
+  { name: "Contact Us", href: "#contactus", current: false },
 ];
 
 function classNames(...classes) {
@@ -48,9 +49,9 @@ export default function Navbar() {
                 <div className="hidden col-span-6 sm:block h-full">
                   <div className="flex space-x-4 h-full justify-evenly">
                     {navigation.map((item, i) => (
-                      <a
+                      <HashLink
                         key={item.name}
-                        href={item.href}
+                        to={`/${item.href}`}
                         className={classNames(
                           item.current
                             ? "text-gbltsorange"
@@ -62,7 +63,7 @@ export default function Navbar() {
                         )}
                         aria-current={item.current ? "page" : undefined}>
                         <p className=" text-xl font-bold">{item.name}</p>
-                      </a>
+                      </HashLink>
                     ))}
                   </div>
                 </div>

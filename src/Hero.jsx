@@ -10,6 +10,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import { Autoplay } from "swiper/modules";
+import { HashLink } from 'react-router-hash-link';
 
 const Hero = () => {
   return (
@@ -31,9 +32,11 @@ const Hero = () => {
                 industry and his clients with his values, integrity, hard work,
                 and commitment.
               </p>
-              <div className=" w-2/5 md:w-1/3 lg:w-1/3 mt-10 bg-gbltsorange inline-flex items-center justify-center px-6 py-4 text-base font-medium text-center text-slate-100">
-                <div className="text-white font-bold">CONTACT US</div>
-              </div>
+              <HashLink to={"/#contactus"}>
+              <button className="bg-gbltsorange mt-8 flex items-center justify-center px-6 py-4 text-base font-semibold text-center text-slate-100">
+                CONTACT US
+              </button>
+            </HashLink>
             </div>
           </div>
           <Swiper slidesPerView={'auto'}

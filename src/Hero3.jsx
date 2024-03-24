@@ -3,7 +3,7 @@ import Founder from "./assets/Anil.png";
 const Hero3 = () => {
   return (
     <>
-      <section className="bg-[#F7F7F8] pt-8 flex justify-center py-8">
+      <section className="bg-[#F7F7F8] pt-8 flex justify-center py-16">
         <div className="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
           <div className="place-self-center lg:col-span-1">
             <div className="mx-0 p-0">

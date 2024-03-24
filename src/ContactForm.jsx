@@ -4,7 +4,7 @@ import HeroImage from "./assets/Hero2.svg";
 const ContactForm = () => {
   return (
     <>
-      <section className="py-32">
+      <section className="py-32" id="contactus">
         <div className="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 container bg-gbltsblue p-8 md:p-16">
           <div className="mr-auto lg:col-span-7 text-white font-medium lg:pr-32">
             <h1 className="max-w-2xl tracking-tight leading-none text-white mb-4 text-2xl md:text-4xl font-semibold uppercase">
