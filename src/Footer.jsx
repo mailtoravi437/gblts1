@@ -36,10 +36,8 @@ const Footer = () => {
               <FontAwesomeIcon icon={faTwitter} className="text-white mx-2" />
               <FontAwesomeIcon icon={faLinkedin} className="text-white mx-2" />
             </div> */}
-            <div className="col-span-12 md:col-span-4 md:text-end mt-8 md:mt-0
-            
-            ">
-              <p className=" text-sm font-semibold text-gray-400 text-center md:text-start">© 2023 GBLTS Pvt. Ltd. All rights reserved.</p>
+            <div className="col-span-12 md:col-span-4 md:text-end mt-8 md:mt-0">
+              <p className=" text-sm font-semibold text-gray-400 text-center md:text-end">© 2023 GBLTS Pvt. Ltd. All rights reserved.</p>
             </div>
           </div>
         </div>

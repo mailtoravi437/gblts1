@@ -30,6 +30,7 @@ const ContactForm = () => {
                   name="fullName"
                   className="p-2 w-full bg-gbltsblue uppercase text-gbltsgrey border-b mt-8 border-gbltsgrey focus:outline-none"
                   placeholder="Full Name"
+                  required
                 />
               </div>
 
@@ -40,6 +41,7 @@ const ContactForm = () => {
                   name="email"
                   className=" p-2 w-full bg-gbltsblue uppercase text-gbltsgrey border-b mt-8 border-gbltsgrey focus:outline-none"
                   placeholder="Email"
+                  required
                 />
               </div>
 
@@ -48,7 +50,8 @@ const ContactForm = () => {
                   id="requirements"
                   name="requirements"
                   className="p-2 pb-0 resize-none w-full bg-gbltsblue uppercase text-gbltsgrey border-b mt-8 border-gbltsgrey focus:outline-none"
-                  placeholder="Requirements"></textarea>
+                  placeholder="Requirements"
+                  required></textarea>
               </div>
 
               <div className="flex justify-end">

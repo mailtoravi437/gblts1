@@ -14,6 +14,7 @@ import ContactForm from "./ContactForm";
 import Footer from "./Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import SectionImg from "./SectionImg";
+import Clientle from "./Clientle";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Hero />
       <Logistic />
       <Hero7/>
+      <Clientle/>
       <Hero3 />
       <Hero4 />
       <Hero5 />
