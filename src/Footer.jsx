@@ -14,16 +14,16 @@ const Footer = () => {
     <>
       <section className="bg-gbltsblue py-8 px-8">
         <div className="max-w-screen-xl mx-auto">
-          <div className="grid grid-cols-12 justify-center items-center">
-            <div className="col-span-12 md:col-span-3 flex-shrink-0 items-start md:pt-10">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="flex-shrink-0 items-start">
               <img
                 className="h-auto w-auto "
                 src={FooterLogo}
                 alt="Your Company"
               />
             </div>
-            <div className="col-span-12 md:col-span-5 mt-4 md:mt-0">
-              <ul className="flex flex-col md:flex-row justify-around items-center text-base font-medium text-gray-400">
+            <div className=" mt-4 md:mt-0">
+              <ul className="flex flex-col md:flex-row justify-around items-center gap-x-8 text-base font-medium text-gray-400">
                 <HashLink to={"/#aboutus"}><li>About</li></HashLink>
                 <HashLink to={"/#solutions"}><li>Solutions</li></HashLink>
                 <HashLink to={"/#contactus"}><li>Contact Us</li></HashLink>
@@ -36,7 +36,7 @@ const Footer = () => {
               <FontAwesomeIcon icon={faTwitter} className="text-white mx-2" />
               <FontAwesomeIcon icon={faLinkedin} className="text-white mx-2" />
             </div> */}
-            <div className="col-span-12 md:col-span-4 md:text-end mt-8 md:mt-0">
+            <div className=" md:text-end mt-8 md:mt-0">
               <p className=" text-sm font-semibold text-gray-400 text-center md:text-end">© 2023 GBLTS Pvt. Ltd. All rights reserved.</p>
             </div>
           </div>

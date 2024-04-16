@@ -71,7 +71,7 @@ const Hero5 = () => {
                 <h3 className="mb-2 text-lg font-bold  text-gbltsblue">
                   {category.title}
                 </h3>
-                <p className="text-gbltsblue">
+                <p className="text-gbltsblue text-base">
                   {category.description}
                 </p>
               </div>

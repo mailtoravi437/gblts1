@@ -49,23 +49,23 @@ export default function Hero7() {
                 <ul className='list-none'>
                   <li className='flex items-center mb-4'>
                     <p className='text-[#FF681E] mr-4 w-7 h-7 flex items-center'><FaCheck /></p>
-                    <p className='text-[#001856] text-lg font-normal'>Foster Innovation and Technology.</p>
+                    <p className='text-[#001856] text-base md:text-lg font-normal'>Foster Innovation and Technology.</p>
                   </li>
                   <li className='flex items-center mb-4'>
                     <p className='text-[#FF681E] mr-4 w-7 h-7 flex items-center'><FaCheck /></p>
-                    <p className='text-[#001856] text-lg font-normal'>Implement eco-friendly practices in transportation operations.</p>
+                    <p className='text-[#001856] text-base md:text-lg font-normal'>Implement eco-friendly practices in transportation operations.</p>
                   </li>
                   <li className='flex items-center mb-4'>
                     <p className='text-[#FF681E] mr-4 w-7 h-7 flex items-center'><FaCheck /></p>
-                    <p className='text-[#001856] text-lg font-normal'>Cultivate strong, long-term partnerships with clients.</p>
+                    <p className='text-[#001856] text-base md:text-lg font-normal'>Cultivate strong, long-term partnerships with clients.</p>
                   </li>
                   <li className='flex items-center mb-4'>
                     <p className='text-[#FF681E] mr-4 w-7 h-7 flex items-center'><FaCheck /></p>
-                    <p className='text-[#001856] text-lg font-normal'>Conduct business with integrity and transparency.</p>
+                    <p className='text-[#001856] text-base md:text-lg font-normal'>Conduct business with integrity and transparency.</p>
                   </li>
                   <li className='flex items-center mb-4'>
                     <p className='text-[#FF681E] mr-4 w-7 h-7 flex items-center'><FaCheck /></p>
-                    <p className='text-[#001856] text-lg font-normal'>Prioritize the training and development of our workforce.</p>
+                    <p className='text-[#001856] text-base md:text-lg font-normal'>Prioritize the training and development of our workforce.</p>
                   </li>
                 </ul>
               </div>

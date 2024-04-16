@@ -23,7 +23,7 @@ const Hero2 = () => {
               seamless experience.
             </p>
           </div>
-          <div className="flex flex-col lg:mt-0 lg:col-span-6 lg:flex">
+          <div className="flex flex-col mt-4 lg:mt-0 lg:col-span-6 lg:flex">
             <img
               src={HeroImage}
               className="h-full w-full object-left-top lg:ml-0 lg:mt-0 lg:mb-0 lg:pr-0"

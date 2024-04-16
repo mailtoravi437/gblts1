@@ -17,21 +17,21 @@ const Hero4 = () => {
               </button>
             </HashLink>
           </div>
-          <div className="flex flex-col lg:mt-0 lg:col-span-6 lg:flex text-gbltsblue">
-            <div className="text-gbltsblue text-lg mb-12">
+          <div className="flex flex-col mt-4 lg:mt-0 lg:col-span-6 lg:flex text-gbltsblue">
+            <p className="text-gbltsblue text-base md:text-lg mb-8">
               With the range of logistics services we have to offer, we promise
               to handle your entire Logistics requirement towards Warehousing,
               Distribution, Transportation of Project Materials, Highly
               Sensitive Security Materials, Newsprints, Break Bulk Cargo or Odd
               Dimension consignment Movements.
-            </div>
-            <div className="text-gbltsblue text-lg">
+            </p>
+            <p className="text-gbltsblue text-base md:text-lg">
               We outshine competitors with unwavering commitment, on-time
               deliveries, competitive rates, and professional service. Clients
               across the nation rely on our specialized knowledge and
               experience. Our fleet includes various vehicles, strengthening our
               logistics capabilities.
-            </div>
+            </p>
           </div>
         </div>
       </section>
