@@ -7,7 +7,7 @@ import { HashLink } from "react-router-hash-link";
 const navigation = [
   { name: "About", href: "#aboutus", current: true },
   { name: "Solutions", href: "#solutions", current: false },
-  { name: "Blog", href: "#", current: false },
+  { name: "Blog", href: "#blog", current: false },
   { name: "Contact Us", href: "#contactus", current: false },
 ];
 

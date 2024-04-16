@@ -5,7 +5,7 @@ import { MdArrowOutward } from "react-icons/md";
 const Hero6 = () => {
   return (
     <>
-      <section className="bg-whit flex justify-center py-8">
+      <section className="bg-whit flex justify-center py-8" id="blog">
         <div className="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
           <div className="place-self-center lg:col-span-1">
             <div className="mx-0 p-0">
