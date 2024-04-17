@@ -4,52 +4,52 @@ import Phone from './assets/Phone.png';
 import Email from './assets/Email.png';
 
 const ContactForm = () => {
-  // const [formData, setFormData] = useState({
-  //   fullName: '',
-  //   email: '',
-  //   requirements: ''
-  // });
+  const [formData, setFormData] = useState({
+    fullName: '',
+    email: '',
+    requirements: ''
+  });
 
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  // const handleChange = (e) => {
-  //   const { name, value } = e.target;
-  //   setFormData({
-  //     ...formData,
-  //     [name]: value,
-  //   });
-  // };
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // try {
-    //   const response = await fetch('./php/ContactUsEmail.php', {
-    //     method: 'POST',
-    //     headers: {
-    //       'Content-Type': 'application/json',
-    //     },
-    //     body: JSON.stringify(formData),
-    //   });
+    try {
+      const response = await fetch('./php/ContactUsEmail.php', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
 
-    //   const responseData = await response.json();
-    //   if (response.ok && responseData.success) {
-    //     console.log('Form submitted successfully');
-    //     setFormData({
-    //       fullName: '',
-    //       email: '',
-    //       requirements: ''
-    //     });
-    //     setIsSubmitted(true);
-    //     setTimeout(() => {
-    //       setIsSubmitted(false);
-    //     }, 3000);
-    //   } else {
-    //     console.log('Form submission failed');
-    //   }
-    // } catch (error) {
-    //   console.log('An error occurred. Please try again later.');
-    // }
-    // console.log(formData);
+      const responseData = await response.json();
+      if (response.ok && responseData.success) {
+        console.log('Form submitted successfully');
+        setFormData({
+          fullName: '',
+          email: '',
+          requirements: ''
+        });
+        setIsSubmitted(true);
+        setTimeout(() => {
+          setIsSubmitted(false);
+        }, 3000);
+      } else {
+        console.log('Form submission failed');
+      }
+    } catch (error) {
+      console.log('An error occurred. Please try again later.');
+    }
+    console.log(formData);
     setIsSubmitted(true);
   };
 

@@ -27,11 +27,11 @@ $message2 = $fname . "has submitted following information." . "\n"
   . "Note: This is a system-generated email. Please don't reply to this email.";
 
 // Email headers
-$headers = "From: " . ""; // Vendor Email
+$headers = "From: " . "vishal@gblts.in"; // Vendor Email
 $headers .= "MIME-Version: Client Extel\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
-$mail = ""; // Vendor Email
+$mail = "vishal@gblts.in"; // Vendor Email
 // PHP mailer function
 $result1 = mail($cmail, $subject, $message1, $headers); // This email sent to client address
 $result2 = mail($mail, $subject, $message2, $headers);
