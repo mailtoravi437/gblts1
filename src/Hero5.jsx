@@ -68,10 +68,10 @@ const Hero5 = () => {
                 <div className="flex justify-center items-center mb-4 w-12 h-12 rounded-full bg-primary-100 dark:bg-primary-900">
                   <img src={category.icon} alt={category.title} />
                 </div>
-                <h3 className="mb-2 text-lg font-bold  text-gbltsblue">
+                <h3 className="mb-2 text-2xl font-bold  text-gbltsblue h-16">
                   {category.title}
                 </h3>
-                <p className="text-gbltsblue text-base">
+                <p className="text-[#001856] text-base font-normal">
                   {category.description}
                 </p>
               </div>

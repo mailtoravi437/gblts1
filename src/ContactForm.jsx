@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { MdCheck } from "react-icons/md";
+import Phone from './assets/Phone.png';
+import Email from './assets/Email.png';
 
 const ContactForm = () => {
   // const [formData, setFormData] = useState({
@@ -56,19 +58,36 @@ const ContactForm = () => {
       <section className="py-32" id="contactus">
         <div className="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 container bg-gbltsblue p-8 md:p-16">
           <div className="mr-auto lg:col-span-7 text-white font-medium lg:pr-32">
-            <h1 className="max-w-2xl tracking-tight leading-none text-white mb-4 text-2xl md:text-4xl font-semibold uppercase">
-              Get<br /> with us today.
+            <h1 className=" tracking-tight leading-none text-white mb-4 text-2xl md:text-4xl font-bold uppercase">
+              Get in touch<br />
+              with us today.
             </h1>
-            <p className="py-4 lg:py-10 text-lg font-normal">
+            <p className="py-4 lg:py-10 text-lg font-normal font-inter">
               Whether you're a small business looking to expand or a large
               enterprise seeking to streamline your operations, GBLTS is here to
               cater to your unique logistics needs. Experience the difference of
               working with a partner who is dedicated to your success. Trust
               GBLTS - your logistics, our commitment.
             </p>
+            <div className="">
+              <ul className="">
+                <li className="flex my-4">
+                  <img src={Phone} alt="Phone" className="w-6 h-6" />
+                  <p className=" text-base font-medium ml-3">+91 9331154333</p>
+                </li>
+                <li className="flex my-4">
+                  <img src={Phone} alt="Phone" className="w-6 h-6" />
+                  <p className=" text-base font-medium ml-3">033-2641-1409</p>
+                </li>
+                <li className="flex items-center my-4">
+                  <img src={Email} alt="Email" className="w-6 h-6" />
+                  <p className=" text-base font-medium ml-3">care@gblts.in</p>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="flex flex-col justify-center pt-8 md:pt-0 px-0 md:px-8 lg:mt-0 lg:col-span-5 lg:flex">
-            {isSubmitted ?  (
+            {isSubmitted ? (
               <div className="flex flex-col items-center">
                 < div className=" w-24 h-24 bg-[#FF681E] rounded-full flex justify-center items-center">
                   <MdCheck className=" w-16 h-16 text-white" />

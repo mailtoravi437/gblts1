@@ -20,7 +20,7 @@ export default function Hero7() {
                   <img src={Eye} alt="Eye" className=' w-10 h-10 xl:w-20 xl:h-20' />
                 </div>
                 <div className=" mt-10">
-                  <p className='text-[#001856] text-sm xl:text-xl font-normal'>To redefine the logistics landscape by providing a complete logistics solution that surpasses industry standards. We aim to set new benchmarks in safety, dependability, and quality service, becoming the most trusted logistics player in the industry.</p>
+                  <p className='text-[#001856] text-sm xl:text-xl font-inter font-normal'>To redefine the logistics landscape by providing a complete logistics solution that surpasses industry standards. We aim to set new benchmarks in safety, dependability, and quality service, becoming the most trusted logistics player in the industry.</p>
                 </div>
               </span>
             </div>
@@ -33,7 +33,7 @@ export default function Hero7() {
                   <img src={Badge} alt="Badge" className=' w-10 h-10 xl:w-20 xl:h-20' />
                 </div>
                 <div className=" mt-10">
-                  <p className='text-[#001856] text-sm xl:text-xl font-normal'>We are committed to delivering excellence in every aspect of our operations. From cargo handling to transportation, we strive to exceed expectations and set a new standard for quality service.</p>
+                  <p className='text-[#001856] text-sm xl:text-xl font-inter font-normal'>We are committed to delivering excellence in every aspect of our operations. From cargo handling to transportation, we strive to exceed expectations and set a new standard for quality service.</p>
                 </div>
               </span>
             </div>
@@ -47,25 +47,29 @@ export default function Hero7() {
               </div>
               <div className=" md:w-3/5 mt-4 md:mt-0">
                 <ul className='list-none'>
-                  <li className='flex items-center mb-4'>
+                <li className='flex items-center mb-4'>
                     <p className='text-[#FF681E] mr-4 w-7 h-7 flex items-center'><FaCheck /></p>
-                    <p className='text-[#001856] text-base md:text-lg font-normal'>Foster Innovation and Technology.</p>
+                    <p className='text-[#001856] text-base md:text-lg font-inter font-normal'>Leveraging AI to streamline daily operations.</p>
                   </li>
                   <li className='flex items-center mb-4'>
                     <p className='text-[#FF681E] mr-4 w-7 h-7 flex items-center'><FaCheck /></p>
-                    <p className='text-[#001856] text-base md:text-lg font-normal'>Implement eco-friendly practices in transportation operations.</p>
+                    <p className='text-[#001856] text-base md:text-lg font-inter font-normal'>Foster Innovation and Technology.</p>
                   </li>
                   <li className='flex items-center mb-4'>
                     <p className='text-[#FF681E] mr-4 w-7 h-7 flex items-center'><FaCheck /></p>
-                    <p className='text-[#001856] text-base md:text-lg font-normal'>Cultivate strong, long-term partnerships with clients.</p>
+                    <p className='text-[#001856] text-base md:text-lg font-inter font-normal'>Implement eco-friendly practices in transportation operations.</p>
                   </li>
                   <li className='flex items-center mb-4'>
                     <p className='text-[#FF681E] mr-4 w-7 h-7 flex items-center'><FaCheck /></p>
-                    <p className='text-[#001856] text-base md:text-lg font-normal'>Conduct business with integrity and transparency.</p>
+                    <p className='text-[#001856] text-base md:text-lg font-inter font-normal'>Cultivate strong, long-term partnerships with clients.</p>
                   </li>
                   <li className='flex items-center mb-4'>
                     <p className='text-[#FF681E] mr-4 w-7 h-7 flex items-center'><FaCheck /></p>
-                    <p className='text-[#001856] text-base md:text-lg font-normal'>Prioritize the training and development of our workforce.</p>
+                    <p className='text-[#001856] text-base md:text-lg font-inter font-normal'>Conduct business with integrity and transparency.</p>
+                  </li>
+                  <li className='flex items-center mb-4'>
+                    <p className='text-[#FF681E] mr-4 w-7 h-7 flex items-center'><FaCheck /></p>
+                    <p className='text-[#001856] text-base md:text-lg font-inter font-normal'>Prioritize the training and development of our workforce.</p>
                   </li>
                 </ul>
               </div>

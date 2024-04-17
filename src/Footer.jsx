@@ -23,11 +23,11 @@ const Footer = () => {
               />
             </div>
             <div className=" mt-4 md:mt-0">
-              <ul className="flex flex-col md:flex-row justify-around items-center gap-x-8 text-base font-medium text-gray-400">
+              <ul className="flex flex-col md:flex-row justify-around items-center gap-x-8 text-base font-semibold text-gray-400 uppercase">
                 <HashLink to={"/#aboutus"}><li>About</li></HashLink>
                 <HashLink to={"/#solutions"}><li>Solutions</li></HashLink>
                 <HashLink to={"/#contactus"}><li>Contact Us</li></HashLink>
-                <HashLink to={""}><li>Blog</li></HashLink>
+                <HashLink to={""}><li>Blogs</li></HashLink>
               </ul>
             </div>
             {/* <div className="col-span-12 md:col-span-3 flex justify-center mt-4 md:mt-0">
@@ -37,7 +37,7 @@ const Footer = () => {
               <FontAwesomeIcon icon={faLinkedin} className="text-white mx-2" />
             </div> */}
             <div className=" md:text-end mt-8 md:mt-0">
-              <p className=" text-sm font-semibold text-gray-400 text-center md:text-end">© 2023 GBLTS Pvt. Ltd. All rights reserved.</p>
+              <p className=" text-sm font-semibold text-gray-400 text-center md:text-end">© {new Date().getFullYear()} GB Lifting & Transportation System. All Rights Reserved.</p>
             </div>
           </div>
         </div>

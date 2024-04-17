@@ -17,15 +17,15 @@ const Hero4 = () => {
               </button>
             </HashLink>
           </div>
-          <div className="flex flex-col mt-4 lg:mt-0 lg:col-span-6 lg:flex text-gbltsblue">
-            <p className="text-gbltsblue text-base md:text-lg mb-8">
+          <div className="flex flex-col mt-4 lg:mt-0 lg:col-span-6 lg:flex">
+            <p className=" text-base md:text-lg mb-8 text-[#001856] font-inter font-normal">
               With the range of logistics services we have to offer, we promise
               to handle your entire Logistics requirement towards Warehousing,
               Distribution, Transportation of Project Materials, Highly
               Sensitive Security Materials, Newsprints, Break Bulk Cargo or Odd
               Dimension consignment Movements.
-            </p>
-            <p className="text-gbltsblue text-base md:text-lg">
+              <br />
+              <br />
               We outshine competitors with unwavering commitment, on-time
               deliveries, competitive rates, and professional service. Clients
               across the nation rely on our specialized knowledge and

@@ -8,6 +8,9 @@ export default {
         gbltsblue: "#001856",
         gbltsgrey: "#F7F7F8",
       },
+      fontFamily: {
+        inter: "Inter",
+      },
     },
   },
   plugins: [],

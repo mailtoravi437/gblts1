@@ -24,8 +24,8 @@ const Hero = () => {
                 Streamlining Your Supply Chain
               </h1>
             </div>
-            <div className="flex flex-col lg:mt-0 lg:col-span-6 lg:flex text-gbltsblue md:px-24">
-              <p className="mb-4 lg:mb-0">
+            <div className="flex flex-col lg:mt-0 lg:col-span-6 lg:flex md:px-24">
+              <p className="mb-4 lg:mb-0 font-inter text-[#09092A]">
                 An organization with the founder having over 3 decades of
                 experience in the logistics space. Started with a humble
                 beginning, the founder has delivered stellar results to the
