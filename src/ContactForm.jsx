@@ -58,7 +58,7 @@ const ContactForm = () => {
       <section className="py-32" id="contactus">
         <div className="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 container bg-gbltsblue p-8 md:p-16">
           <div className="mr-auto lg:col-span-7 text-white font-medium lg:pr-32">
-            <h1 className=" tracking-tight leading-none text-white mb-4 text-2xl md:text-4xl font-bold uppercase">
+            <h1 className=" tracking-tight leading-none text-white mb-4 text-2xl md:text-4xl font-bold uppercase font-face-incf">
               Get in touch<br />
               with us today.
             </h1>
@@ -96,7 +96,7 @@ const ContactForm = () => {
               </div>
             ) : (
               <>
-                <h1 className="max-w-2xl tracking-tight leading-none text-white mb-4 md:text-5xl xl:text-6xl sm:text-4xl font-extrabold uppercase">
+                <h1 className="max-w-2xl tracking-tight leading-none text-white mb-4 md:text-5xl xl:text-6xl sm:text-4xl font-extrabold uppercase font-face-incf">
                   Contact
                 </h1>
                 <form onSubmit={handleSubmit}>
@@ -141,7 +141,7 @@ const ContactForm = () => {
                     <button
                       type="submit"
                       className="lg:w-1/3 md:w-1/3 sm:w-1/3 mt-10 bg-gbltsorange inline-flex items-center justify-center px-6 py-4 text-base font-medium text-center text-slate-100">
-                      <div className="text-white font-bold">SUBMIT</div>
+                      <div className="text-white font-bold font-face-incf">SUBMIT</div>
                     </button>
                   </div>
                 </form>

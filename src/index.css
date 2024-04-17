@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Integral CF";
+    src: local("Integral CF"),
+        url("./fonts/Integralcf/Fontspring-DEMO-integralcf-demibold.otf") format("truetype");
+    font-weight: 600;
+}

@@ -6,7 +6,7 @@ const Hero2 = () => {
       <section className="bg-gbltsblue py-8 md:py-0 px-4" id="aboutus">
         <div className="grid max-w-screen-xl mx-auto pl-2 lg:gap-8 xl:gap-0 lg:grid-cols-12 container">
           <div className="mr-auto place-self-center lg:col-span-7 text-white font-medium lg:pr-48 py-12">
-            <h1 className=" text-white mb-4 sm:text-4xl md:text-5xl xl:text-6xl font-extrabold uppercase">
+            <h1 className=" text-white mb-4 sm:text-4xl md:text-5xl xl:text-6xl font-semibold font-face-incf uppercase">
               Your <br/><span className="text-gbltsorange">Trusted </span>Logistics
               Companion
             </h1>

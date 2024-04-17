@@ -16,7 +16,7 @@ export default function Hero7() {
             <div className="w-[320px] h-[307px] xl:w-[588px] xl:h-[455px] bg-black flex items-center justify-center mx-3" style={{ clipPath: "polygon(0 0, 60% 0, 100% 40%, 100% 100%, 0 100%, 0% 50%)" }}>
               <span class="border-span w-[318px] h-[305px] xl:w-[584px] xl:h-[452px] bg-white p-4 md:p-10  flex flex-col justify-center" style={{ clipPath: "polygon(0 0, 60% 0, 100% 40%, 100% 100%, 0 100%, 0% 50%)" }}>
                 <div className='flex justify-between items-center w-4/5'>
-                  <h2 className='text-2xl xl:text-5xl font-bold text-[#001856]'>Our <br /> <span className='text-4xl xl:text-7xl font-bold'>Vision</span></h2>
+                  <h2 className='text-2xl xl:text-5xl font-bold font-face-incf text-[#001856]'>Our <br /> <span className='text-4xl xl:text-7xl font-bold'>Vision</span></h2>
                   <img src={Eye} alt="Eye" className=' w-10 h-10 xl:w-20 xl:h-20' />
                 </div>
                 <div className=" mt-10">
@@ -29,7 +29,7 @@ export default function Hero7() {
             <div className="w-[320px] h-[307px] xl:w-[588px] xl:h-[455px] bg-black flex items-center justify-center mx-3" style={{ clipPath: "polygon(0 0, 60% 0, 100% 40%, 100% 100%, 0 100%, 0% 50%)" }}>
               <span class="border-span w-[318px] h-[305px] xl:w-[584px] xl:h-[452px] bg-white p-4 md:p-10 flex flex-col justify-center" style={{ clipPath: "polygon(0 0, 60% 0, 100% 40%, 100% 100%, 0 100%, 0% 50%)" }}>
                 <div className='flex justify-between items-center w-4/5'>
-                  <h2 className=' text-2xl xl:text-5xl font-bold text-[#001856]'>Our <br /> <span className='text-4xl xl:text-7xl font-bold'>Values</span></h2>
+                  <h2 className=' text-2xl xl:text-5xl font-bold font-face-incf text-[#001856]'>Our <br /> <span className='text-4xl xl:text-7xl font-bold'>Values</span></h2>
                   <img src={Badge} alt="Badge" className=' w-10 h-10 xl:w-20 xl:h-20' />
                 </div>
                 <div className=" mt-10">
@@ -42,7 +42,7 @@ export default function Hero7() {
           <div className="lg:col-span-12 mt-12 md:mt-72">
             <div className=" border-2 border-[#001856] p-8 md:p-16 flex flex-col md:flex-row">
               <div className='flex lg:block justify-between md:w-2/5'>
-                <h2 className=' text-2xl lg:text-5xl font-bold text-[#001856]'>Our <br /> <span className='text-4xl md:text-7xl  font-bold'>Mission</span></h2>
+                <h2 className=' text-2xl lg:text-5xl font-bold font-face-incf text-[#001856]'>Our <br /> <span className='text-4xl md:text-7xl  font-bold'>Mission</span></h2>
                 <img src={Mission} alt="Mission" className=' w-10 h-10 lg:w-20 lg:h-20 mt-8' />
               </div>
               <div className=" md:w-3/5 mt-4 md:mt-0">

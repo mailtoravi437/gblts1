@@ -18,7 +18,7 @@ const Hero6 = () => {
           </div>
           <div className="flex flex-col mx-auto mt-4 lg:mt-0 lg:col-span-1 lg:flex text-gbltsblue px-8 md:pl-16">
             <p className=" text-lg font-semibold text-gray-400 font-inter">BLOGS</p>
-            <div className="max-w-2xl mt-3 mb-4 tracking-wide text-2xl font-extrabold uppercase leading-none md:text-4xl text-gbltsblue">
+            <div className="max-w-2xl mt-3 mb-4 tracking-wide text-2xl font-extrabold uppercase leading-none md:text-4xl text-gbltsblue font-face-incf">
               Your<br></br> <span className="text-gbltsorange">Trusted </span>
               Logistics Companion
             </div>
@@ -29,7 +29,7 @@ const Hero6 = () => {
               the way for our humble beginnings.
             </div>
             <Link to={"#"}>
-              <button className="bg-gbltsorange mt-8 flex items-center justify-center px-6 py-4 text-base font-semibold text-center text-slate-100">
+              <button className="bg-gbltsorange mt-8 flex items-center justify-center px-6 py-4 text-base font-semibold text-center text-slate-100 font-face-incf">
                 READ MORE <MdArrowOutward className="ml-2" />
               </button>
             </Link>

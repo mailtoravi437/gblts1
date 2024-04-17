@@ -15,6 +15,7 @@ import Footer from "./Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import SectionImg from "./SectionImg";
 import Clientle from "./Clientle";
+import './fonts/Integralcf/Fontspring-DEMO-integralcf-demibold.otf';
 
 function App() {
   return (

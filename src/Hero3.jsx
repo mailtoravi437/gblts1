@@ -15,7 +15,7 @@ const Hero3 = () => {
             </div>
           </div>
           <div className="flex flex-col mx-auto mt-4 lg:mt-0 lg:col-span-1 lg:flex text-gbltsblue px-8 md:px-24">
-            <div className="font-bold text-2xl sm:text-3xl lg:text-4xl uppercase">
+            <div className="font-bold text-2xl sm:text-3xl lg:text-4xl uppercase font-face-incf">
               About founder
             </div>
             <p className="font-normal text-base md:text-lg text-[#001856] mt-4 sm:mt-8">

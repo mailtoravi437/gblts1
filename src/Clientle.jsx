@@ -64,7 +64,7 @@ export default function Clientle() {
     return (
         <section className="bg-[#001856] pt-8 flex justify-center py-16 px-8">
             <div className="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:py-16">
-                <h1 className="max-w-2xl tracking-tight leading-none text-white mb-4 md:text-5xl xl:text-6xl sm:text-4xl font-extrabold uppercase">
+                <h1 className="max-w-2xl tracking-tight leading-none text-white mb-4 md:text-5xl xl:text-6xl sm:text-4xl font-extrabold uppercase font-face-incf">
                     Our<span className="text-gbltsorange"> Clientele </span>
                 </h1>
                 <div className="flex flex-wrap justify-center md:justify-start gap-[30px] mt-16">

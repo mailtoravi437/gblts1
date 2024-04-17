@@ -6,6 +6,10 @@
   background: #FF681E !important;
 }
 
+.font-face-incf {
+  font-family: "Integral CF";
+}
+
 
 @media only screen and (max-width: 768px) {
   h1 {

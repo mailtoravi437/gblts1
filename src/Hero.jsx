@@ -18,13 +18,13 @@ const Hero = () => {
       <section className="bg-white py-10 flex justify-center px-4">
         <div className=" max-w-screen-xl mx-auto lg:py-8">
           <div className="grid lg:grid-cols-12">
-            <div className="mr-auto place-self-center lg:col-span-6 ">
-              <h1 className="max-w-2xl mb-4 font-extrabold uppercase tracking-tight leading-none text-2xl md:text-4xl lg:text-6xl text-[#001856]">
+            <div className="mr-auto place-self-center lg:col-span-7 ">
+              <h1 className=" mb-4 font-extrabold font-face-incf uppercase tracking-tight leading-none text-2xl md:text-4xl lg:text-6xl text-[#001856]">
                 Simplify<span className="text-gbltsorange"> Logistics </span>
                 Streamlining Your Supply Chain
               </h1>
             </div>
-            <div className="flex flex-col lg:mt-0 lg:col-span-6 lg:flex md:px-24">
+            <div className="flex flex-col lg:mt-0 lg:col-span-5 lg:flex md:px-12">
               <p className="mb-4 lg:mb-0 font-inter text-[#09092A]">
                 An organization with the founder having over 3 decades of
                 experience in the logistics space. Started with a humble
@@ -33,7 +33,7 @@ const Hero = () => {
                 and commitment.
               </p>
               <HashLink to={"/#contactus"}>
-              <button className="bg-gbltsorange mt-8 flex items-center justify-center px-6 py-4 text-base font-semibold text-center text-slate-100">
+              <button className="bg-gbltsorange mt-8 flex items-center justify-center px-6 py-4 text-lg font-face-incf font-medium text-center text-slate-100">
                 CONTACT US
               </button>
             </HashLink>

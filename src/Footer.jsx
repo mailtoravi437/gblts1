@@ -23,7 +23,7 @@ const Footer = () => {
               />
             </div>
             <div className=" mt-4 md:mt-0">
-              <ul className="flex flex-col md:flex-row justify-around items-center gap-x-8 text-base font-semibold text-gray-400 uppercase">
+              <ul className="flex flex-col md:flex-row justify-around items-center gap-x-8 text-base font-semibold text-gray-400 uppercase font-face-incf">
                 <HashLink to={"/#aboutus"}><li>About</li></HashLink>
                 <HashLink to={"/#solutions"}><li>Solutions</li></HashLink>
                 <HashLink to={"/#contactus"}><li>Contact Us</li></HashLink>
