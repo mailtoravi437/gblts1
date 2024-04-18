@@ -19,18 +19,10 @@ const Hero4 = () => {
           </div>
           <div className="flex flex-col mt-4 lg:mt-0 lg:col-span-6 lg:flex">
             <p className=" text-base md:text-lg mb-8 text-[#001856] font-inter font-normal">
-              With the range of logistics services we have to offer, we promise
-              to handle your entire Logistics requirement towards Warehousing,
-              Distribution, Transportation of Project Materials, Highly
-              Sensitive Security Materials, Newsprints, Break Bulk Cargo or Odd
-              Dimension consignment Movements.
+              With the range of logistics services we have to offer, we promise to handle your entire Logistics requirement towards Warehousing, Distribution, Transportation of Project Materials, Highly Sensitive Security Materials, Newsprints, Break Bulk Cargo or Odd Dimension consignment Movements.
               <br />
               <br />
-              We outshine competitors with unwavering commitment, on-time
-              deliveries, competitive rates, and professional service. Clients
-              across the nation rely on our specialized knowledge and
-              experience. Our fleet includes various vehicles, strengthening our
-              logistics capabilities.
+              We outshine competitors with unwavering commitment, on-time deliveries, competitive rates, and professional service. Clients across the nation rely on our specialized knowledge and experience. Our fleet includes various type of vehicles, strengthening our logistics capabilities.
             </p>
           </div>
         </div>

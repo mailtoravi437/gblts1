@@ -54,9 +54,9 @@ export default function Clientle() {
         {
             image: danieli
         },
-        {
-            image: papermill
-        },
+        // {
+        //     image: papermill
+        // },
         {
             image: eastern
         },

@@ -63,11 +63,7 @@ const ContactForm = () => {
               with us today.
             </h1>
             <p className="py-4 lg:py-10 text-lg font-normal font-inter">
-              Whether you're a small business looking to expand or a large
-              enterprise seeking to streamline your operations, GBLTS is here to
-              cater to your unique logistics needs. Experience the difference of
-              working with a partner who is dedicated to your success. Trust
-              GBLTS - your logistics, our commitment.
+            Whether you're a small business looking to expand or a large enterprise seeking to streamline your operations, GBLTS is here to cater to your unique logistics needs. Experience the difference of working with a partner who is dedicated to your success. Trust GBLTS - your logistics, our commitment.
             </p>
             <div className="">
               <ul className="">

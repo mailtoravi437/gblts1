@@ -19,10 +19,10 @@ const Hero3 = () => {
               About founder
             </div>
             <p className="font-normal text-base md:text-lg text-[#001856] mt-4 sm:mt-8">
-              In 1946, the family business KB Transport was founded in Howrah, later renamed Howrah Readiness in 1980, diversifying into specialised services like factory setups and explosive transport. Late Anil Kumar Singh joined in the early 1980s, significantly enhancing the company's operations and reputation. His outstanding work and relationship-building skills not only elevated the organization but also established his own legacy in the industry.
+              In 1946, the family business KB Transport was founded in Howrah, West Bengal later renamed Howrah Roadlines in 1980, diversifying into specialised services like factory setups and explosive transport. Late Shri Anil Kumar Singh joined in the early 1980s, significantly enhancing the group's operations and reputation. His outstanding work and relationship-building skills not only elevated the organization but also established his own legacy in the industry.
             </p>
             <p className="font-normal text-base md:text-lg text-[#001856] mt-4 sm:mt-8">
-              In the late 2000 he founded GB Lifting & Transportation System to achieve his own dreams and start his Entrepreneurial Journey. Naturally it was a difficult job to wear so many hats. He had been successful in his endeavours and found happiness in reflecting on what he had achieved during his lifetime. Although he is no longer with us, his legacy lives on. Despite the dreams he had yet to fulfill, he had laid a foundation for others to continue and had plans to guide the company to new heights.
+              In the late 2000 he founded GB Lifting & Transportation System to achieve his own dreams and start his Entrepreneurial Journey. Naturally it was a difficult job to wear so many hats. He had been successful in his endeavours and found happiness in reflecting on what he had achieved during his lifetime. Although he is no longer with us, his legacy lives on. Despite the dreams he had yet to fulfill, he had laid a foundation for others to continue and had plans to guide the company to new heights
             </p>
           </div>
         </div>

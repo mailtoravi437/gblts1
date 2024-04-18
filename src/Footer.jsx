@@ -37,7 +37,7 @@ const Footer = () => {
               <FontAwesomeIcon icon={faLinkedin} className="text-white mx-2" />
             </div> */}
             <div className=" md:text-end mt-8 md:mt-0">
-              <p className=" text-sm font-semibold text-gray-400 text-center md:text-end">© {new Date().getFullYear()} GB Lifting & Transportation System. All Rights Reserved.</p>
+              <p className=" text-sm font-semibold text-gray-400 text-center md:text-end">© {new Date().getFullYear()} GB Lifting & Transportation System</p>
             </div>
           </div>
         </div>

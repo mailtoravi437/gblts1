@@ -23,10 +23,7 @@ const Hero6 = () => {
               Logistics Companion
             </div>
             <div className="font-normal font-inter text-base md:text-lg text-[#001856] mt-3">
-              With over 3 decades of logistics expertise, GB Lifting &
-              Transportation System brings stellar results to the industry. Our
-              founder's values, integrity, hard work, and commitment have paved
-              the way for our humble beginnings.
+              With over 4 decades of logistics expertise, GB Lifting & Transportation System brings stellar results to the industry. Our founder's values, integrity, hard work, and commitment have paved the way for our humble beginnings.
             </div>
             <Link to={"#"}>
               <button className="bg-gbltsorange mt-8 flex items-center justify-center px-6 py-4 text-base font-semibold text-center text-slate-100 font-face-incf">

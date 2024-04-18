@@ -19,7 +19,7 @@ const Hero5 = () => {
     {
       title: "valuable Cargo Solutions",
       icon: ValuableCargo,
-      description:`We are engaged in transportation and handling of highly sensitive security material from over 20 years and have gained an expertise in the said field like News Print and high security material.`
+      description:`We are engaged in transportation and handling of highly sensitive security material from over 3 decades and have gained an expertise in the said field like News Print and high security material.`
     },
     {
       title: "Warehousing divisions",

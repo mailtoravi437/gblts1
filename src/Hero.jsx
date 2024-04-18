@@ -26,17 +26,16 @@ const Hero = () => {
             </div>
             <div className="flex flex-col lg:mt-0 lg:col-span-5 lg:flex md:px-12">
               <p className="mb-4 lg:mb-0 font-inter text-[#09092A]">
-                An organization with the founder having over 3 decades of
-                experience in the logistics space. Started with a humble
-                beginning, the founder has delivered stellar results to the
-                industry and his clients with his values, integrity, hard work,
-                and commitment.
+                An organization with the founder having over
+                4 decades of experience in logistics space. Started
+                with a humble beginning the founder has delivered
+                stellar results to the industry and his clients with his values, integrity, hard work and commitment.
               </p>
               <HashLink to={"/#contactus"}>
-              <button className="bg-gbltsorange mt-8 flex items-center justify-center px-6 py-4 text-lg font-face-incf font-medium text-center text-slate-100">
-                CONTACT US
-              </button>
-            </HashLink>
+                <button className="bg-gbltsorange mt-8 flex items-center justify-center px-6 py-4 text-lg font-face-incf font-medium text-center text-slate-100">
+                  CONTACT US
+                </button>
+              </HashLink>
             </div>
           </div>
           <Swiper slidesPerView={'auto'}
