@@ -2,6 +2,7 @@ import Truck1 from './assets/hero1.png';
 import Truck2 from './assets/hero2.png';
 import Truck3 from './assets/hero3.png';
 import Truck4 from './assets/hero4.png';
+import Truck5 from './assets/hero5.png';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -56,6 +57,9 @@ const Hero = () => {
             </SwiperSlide>
             <SwiperSlide>
               <img src={Truck2} alt="" className="w-full object-cover" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Truck5} alt="" className="w-full object-cover" />
             </SwiperSlide>
             <SwiperSlide>
               <img src={Truck3} alt="" className="w-full object-cover" />

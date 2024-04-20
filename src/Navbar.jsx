@@ -20,7 +20,7 @@ export default function Navbar() {
     <>
       <div className="mx-auto max-w-screen-xl px-6">
         <div className=" flex h-12 items-center justify-center">
-          <p className="text-gbltsorange text-base font-semibold">- ॐ श्री गणेशाय नमः -</p>
+          <p className="text-gbltsorange text-base font-semibold">ॐ श्री गणेशाय नमः</p>
         </div>
       </div>
       <Disclosure as="nav" className="font-navfont border-y border-[#001856]">

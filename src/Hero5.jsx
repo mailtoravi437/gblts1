@@ -27,7 +27,7 @@ const Hero5 = () => {
       description: `The Warehousing divisions offers specialised tailor made solutions for storage of cargo as per their nature.`
     },
     {
-      title: "Consulting & Advisory",
+      title: "Consulting and Advisory",
       icon: Consulting,
       description: `We have profound experience of the Industry and understanding of the landscape of India. This knowledge enables us to help you with solving your most difficult logistics problems`
     },
@@ -52,7 +52,7 @@ const Hero5 = () => {
       description: `Tailor made solution to transport exhibition and material handling`
     },
     {
-      title: "Leasing/ Renting of Containers",
+      title: `Leasing  &frasl;  Renting of Containers`,
       icon: Badge,
       description: `We offer 40 feet and 20 feet containers on Lease/Rent basis`
     },
@@ -65,11 +65,10 @@ const Hero5 = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             {categories.map((category, index) => (
               <div key={index} className="border border-gbltsblue p-8 h-96">
-                <div className="flex justify-center items-center mb-4 w-12 h-12 rounded-full bg-primary-100 dark:bg-primary-900">
+                <div className="flex justify-center items-center mb-4 w-12 rounded-full bg-primary-100 dark:bg-primary-900">
                   <img src={category.icon} alt={category.title} />
                 </div>
-                <h3 className="mb-2 text-2xl font-bold  text-gbltsblue h-16 font-face-incf">
-                  {category.title}
+                <h3 className="mb-2 text-2xl font-bold  text-gbltsblue h-16 font-face-incf" dangerouslySetInnerHTML={{ __html: category.title }}>
                 </h3>
                 <p className="text-[#001856] text-base font-normal">
                   {category.description}
